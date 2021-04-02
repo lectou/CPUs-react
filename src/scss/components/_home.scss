@@ -1,0 +1,15 @@
+@import '../mixins';
+
+.home {
+  padding-top: 1rem;
+  &__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    @include breakpoint(450px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

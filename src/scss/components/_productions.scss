@@ -1,0 +1,110 @@
+@import '../mixins';
+
+.productions {
+  $self: &;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding-top: 10px;
+  @include breakpoint(1060px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include breakpoint(810px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include breakpoint(510px) {
+    grid-template-columns: 1fr;
+  }
+  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  &__image {
+    z-index: 10;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    overflow: hidden;
+    max-width: 200px;
+    max-height: 200px;
+    img {
+      width: 100%;
+    }
+  }
+  &__specifications {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 65%;
+    background-color: $white-smoke;
+    border-radius: 8px;
+    padding: 15px;
+    padding-bottom: 5px;
+    z-index: 10;
+    transition: top 0.8s ease-in;
+    overflow: hidden;
+  }
+  &__more-information {
+    height: 0;
+    overflow: hidden;
+    font-size: 14px;
+    span:last-child {
+      font-weight: 500;
+    }
+  }
+  &__item {
+    z-index: 10;
+    height: 370px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid $gray-line;
+    border-radius: 10px;
+    position: relative;
+    background-color: $white;
+    a {
+      color: $black;
+      z-index: 10;
+    }
+    &:hover {
+      z-index: 20;
+
+      &:after {
+        content: '';
+        background-color: $white;
+        position: absolute;
+        left: -6px;
+        right: -6px;
+        top: -6px;
+        bottom: -70px;
+        border-radius: 10px;
+        border: 1px solid $gray-line;
+        box-shadow: 0px 5px 25px 1px rgba(34, 60, 80, 0.17);
+      }
+      #{$self}__more-information {
+        height: 65px;
+      }
+    }
+  }
+  &__bottom {
+    background-color: green;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    top: 100%;
+    overflow: hidden;
+  }
+  &__name {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  &__price {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}

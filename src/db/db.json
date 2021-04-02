@@ -1,0 +1,289 @@
+{
+  "CPUs": [
+    {
+      "id": 0,
+      "imageURL": "https://www.eplus.kiev.ua/image/cache/data/product/Processor/intel-10900k-500x500.png",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 488,
+      "rating": [
+        3,
+        5,
+        4
+      ],
+      "reliz": 6,
+      "category": 0,
+      "popular": 6
+    },
+    {
+      "id": 1,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDGXWUGwcFK2G7PZp7f5La32c7iORQ5_AHTWDdLOXgeSAHOHPTKbt3UpCs7zg2LBJu7tE&usqp=CAU",
+      "name": "Intel Core i7-11700K",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "baseFrequency": "3.60 GHz",
+        "turboFrequency": "5.00 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "Intel® UHD Graphics 750"
+      },
+      "price": 399,
+      "rating": [],
+      "reliz": 6,
+      "category": 0,
+      "popular": 10
+    },
+    {
+      "id": 2,
+      "imageURL": "https://img.telemart.ua/333267-484203-product_popup/intel-core-i5-11600k-49ghz-12mb-s1200-box.png",
+      "name": "Intel Core i5-11600k",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "baseFrequency": "3.90 GHz",
+        "turboFrequency": "4.90 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "95 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "Intel® UHD Graphics 750"
+      },
+      "price": 262,
+      "rating": [
+        4.5,
+        4,
+        3,
+        5
+      ],
+      "reliz": 5,
+      "category": 0,
+      "popular": 5
+    },
+    {
+      "id": 3,
+      "imageURL": "https://ae01.alicdn.com/kf/HTB1s14iairxK1RkHFCcq6AQCVXaR.jpg",
+      "name": "AMD Ryzen 5 1600",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "baseFrequency": "3.20 GHz",
+        "turboFrequency": "3.60 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "12 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "---"
+      },
+      "price": 150,
+      "rating": [
+        3,
+        3,
+        3
+      ],
+      "reliz": 5,
+      "category": 1,
+      "popular": 7
+    },
+    {
+      "id": 4,
+      "imageURL": "https://hotline.ua/img/tx/231/2315709415.jpg",
+      "name": "AMD Ryzen 5 3600",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "baseFrequency": "3.60 GHz",
+        "turboFrequency": "4.20 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "65 W",
+        "lithography": "7 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "---"
+      },
+      "price": 260,
+      "rating": 4,
+      "reliz": 4,
+      "category": 1,
+      "popular": 10
+    },
+    {
+      "id": 5,
+      "imageURL": "https://img.telemart.ua/333320-484201-product_popup/intel-core-i5-11400-44ghz-12mb-s1200-box.png",
+      "name": "Intel Core i5-11400",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "baseFrequency": "2.60 GHz",
+        "turboFrequency": "4.40 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "65 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "Intel® UHD Graphics 730"
+      },
+      "price": 182,
+      "rating": [],
+      "reliz": 4,
+      "category": 0,
+      "popular": 6
+    },
+    {
+      "id": 6,
+      "imageURL": "https://www.cpu-monkey.com/images/cpu/intel_core_i3_2.png",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 2,
+        "threads": 4,
+        "baseFrequency": "2.20 GHz",
+        "turboFrequency": "3.90 GHz",
+        "busSpeed": "4 GT/s",
+        "TDP": "15 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "---"
+      },
+      "price": 338,
+      "rating": [
+        3,
+        3
+      ],
+      "reliz": 3,
+      "category": 0,
+      "popular": 10
+    },
+    {
+      "id": 7,
+      "imageURL": "https://items.s1.citilink.ru/436288_v01_b.jpg",
+      "name": "AMD Ryzen 7 5800X",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "baseFrequency": "3.80 GHz",
+        "turboFrequency": "4.70 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "105 W",
+        "lithography": "7 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "---"
+      },
+      "price": 540,
+      "rating": [
+        4.5,
+        5,
+        4
+      ],
+      "reliz": 3,
+      "category": 1,
+      "popular": 10
+    },
+    {
+      "id": 8,
+      "imageURL": "https://cf.shopee.co.id/file/1816fa71c0df1698877b1f17e272c640",
+      "name": "AMD Ryzen 5 5600",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "4.70 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "65 W",
+        "lithography": "7 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "---"
+      },
+      "price": 360,
+      "rating": [
+        4.5,
+        3,
+        3,
+        4
+      ],
+      "reliz": 2,
+      "category": 1,
+      "popular": 7
+    },
+    {
+      "id": 9,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFS0_PYmPHhirgCjDQMqk2XP7csETPnhf9gyb9UZsfDom93LwgnnnEod_fE4akD6WtlwU&usqp=CAU",
+      "name": "Intel Core i9-11900",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "baseFrequency": "2.50 GHz",
+        "turboFrequency": "5.20 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "65 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-3200",
+        "processorsGPU": "Intel® UHD Graphics 750"
+      },
+      "price": 439,
+      "rating": [],
+      "reliz": 2,
+      "category": 0,
+      "popular": 8
+    }
+  ],
+  "comments": [
+    {
+      "name": "Ivan",
+      "date": "2021-03-10T16:50:22.432Z",
+      "id": "ckk777ut0",
+      "CPUsId": 0,
+      "rating": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi impedit error itaque explicabo. Quis neque voluptate consequatur dolorem cupiditate laboriosam est, iusto ipsum quidem impedit inventore porro voluptatem commodi nostrum beatae quasi delectus molestiae rem quae! Nulla eveniet odit sit facere corrupti eligendi dolore rerum dolor nihil similique, voluptatibus maxime sunt. A tempora animi veritatis impedit. Dolorum amet ex odio ducimus unde quis, labore eveniet perferendis officiis temporibus dignissimos laboriosam voluptatem excepturi consequatur quos fugiat animi laborum quia, nostrum nihil ea? Obcaecati culpa deleniti cupiditate soluta debitis, ratione quaerat autem, harum, delectus ea inventore molestiae laudantium optio tenetur sunt!"
+    },
+    {
+      "name": "Anna",
+      "date": "2021-03-11T16:50:22.432Z",
+      "id": "ckk777899",
+      "CPUsId": 1,
+      "rating": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi impedit error itaque explicabo. Quis neque voluptate consequatur dolorem cupiditate laboriosam est, iusto ipsum quidem impedit inventore porro voluptatem commodi nostrum beatae quasi delectus molestiae rem quae! Nulla eveniet odit sit facere corrupti eligendi dolore rerum dolor nihil similique, voluptatibus maxime sunt. A tempora animi veritatis impedit. Dolorum amet ex odio ducimus unde quis, labore eveniet perferendis officiis temporibus dignissimos laboriosam voluptatem excepturi consequatur quos fugiat animi laborum quia, nostrum nihil ea? Obcaecati culpa deleniti cupiditate soluta debitis, ratione quaerat autem, harum, delectus ea inventore molestiae laudantium optio tenetur sunt!"
+    },
+    {
+      "name": "Bill",
+      "date": "2021-03-12T16:50:22.432Z",
+      "id": "ckk2kk565",
+      "CPUsId": 1,
+      "rating": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi impedit error itaque explicabo. Quis neque voluptate consequatur dolorem cupiditate laboriosam est, iusto ipsum quidem impedit inventore porro voluptatem commodi nostrum beatae quasi delectus molestiae rem quae! Nulla eveniet odit sit facere corrupti eligendi dolore rerum dolor nihil similique, voluptatibus maxime sunt. A tempora animi veritatis impedit. Dolorum amet ex odio ducimus unde quis, labore eveniet perferendis officiis temporibus dignissimos laboriosam voluptatem excepturi consequatur quos fugiat animi laborum quia, nostrum nihil ea? Obcaecati culpa deleniti cupiditate soluta debitis, ratione quaerat autem, harum, delectus ea inventore molestiae laudantium optio tenetur sunt!"
+    },
+    {
+      "name": "violetta",
+      "text": "dfhdfghfgjfgjghkj dthfgjhfg jfgj ",
+      "rating": 3.5,
+      "date": "2021-04-01T19:03:19.054Z",
+      "id": "3j4toa4kt",
+      "CPUsId": 1
+    },
+    {
+      "name": "Ivan",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum provident repudiandae quibusdam magni ullam. Fuga quae saepe, nostrum earum deleniti consequatur unde quod delectus perferendis praesentium rem ab voluptatibus consectetur nobis. Delectus molestias fugit quia soluta eveniet cumque rerum dicta tenetur ipsa dignissimos, error non incidunt saepe ipsum? Dolore, perferendis iusto consequatur sequi tempora, quod soluta dolorum sit quisquam ut, inventore ipsam? Aut totam error iusto repudiandae placeat similique quasi sunt modi, optio officiis sed inventore delectus ab aperiam vel amet laboriosam quos molestias ex officia architecto soluta. Delectus provident minima, modi cumque ipsum tempore esse earum totam sint?",
+      "rating": 4,
+      "date": "2021-04-01T19:52:22.843Z",
+      "id": "dr01iavr9",
+      "CPUsId": 3
+    },
+    {
+      "name": "Anna",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum provident repudiandae quibusdam magni ullam. Fuga quae saepe, nostrum earum deleniti consequatur unde quod delectus perferendis praesentium rem ab voluptatibus consectetur nobis. Delectus molestias fugit quia soluta eveniet cumque rerum dicta tenetur ipsa dignissimos, error non incidunt saepe ipsum? Dolore, perferendis iusto consequatur sequi tempora, quod soluta dolorum sit quisquam ut, inventore ipsam? Aut totam error iusto repudiandae placeat similique quasi sunt modi, optio officiis sed inventore delectus ab aperiam vel amet laboriosam quos molestias ex officia architecto soluta. Delectus provident minima, modi cumque ipsum tempore esse earum totam sint?",
+      "rating": 4.5,
+      "date": "2021-04-01T19:52:35.471Z",
+      "id": "wu5q2bvyk",
+      "CPUsId": 3
+    }
+  ]
+}

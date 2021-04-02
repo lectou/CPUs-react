@@ -1,0 +1,240 @@
+{
+  "CPUs": [
+    {
+      "id": 0,
+      "imageURL": "https://i8.rozetka.ua/goods/18036977/intel_bx8070110900k_images_18036977719.jpg",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 488,
+      "rating": 3,
+      "reliz": 6,
+      "category": 0,
+      "popular": 6
+    },
+    {
+      "id": 1,
+      "imageURL": "https://i8.rozetka.ua/goods/18036977/intel_bx8070110900k_images_18036977719.jpg",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 400,
+      "rating": 5,
+      "reliz": 6,
+      "category": 0,
+      "popular": 10
+    },
+    {
+      "id": 2,
+      "imageURL": "https://i8.rozetka.ua/goods/18036977/intel_bx8070110900k_images_18036977719.jpg",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 388,
+      "rating": 4,
+      "reliz": 5,
+      "category": 0,
+      "popular": 5
+    },
+    {
+      "id": 3,
+      "imageURL": "https://i2.rozetka.ua/goods/13656299/amd_ryzen_5_1600_wraith_stealth_images_13656299167.jpg",
+      "name": "AMD",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 608,
+      "rating": 4,
+      "reliz": 5,
+      "category": 1,
+      "popular": 7
+    },
+    {
+      "id": 4,
+      "imageURL": "https://i2.rozetka.ua/goods/13656299/amd_ryzen_5_1600_wraith_stealth_images_13656299167.jpg",
+      "name": "AMD",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 400,
+      "rating": 4,
+      "reliz": 4,
+      "category": 1,
+      "popular": 10
+    },
+    {
+      "id": 5,
+      "imageURL": "https://i8.rozetka.ua/goods/18036977/intel_bx8070110900k_images_18036977719.jpg",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 250,
+      "rating": 3,
+      "reliz": 4,
+      "category": 0,
+      "popular": 6
+    },
+    {
+      "id": 6,
+      "imageURL": "https://i8.rozetka.ua/goods/18036977/intel_bx8070110900k_images_18036977719.jpg",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 340,
+      "rating": 3,
+      "reliz": 3,
+      "category": 0,
+      "popular": 10
+    },
+    {
+      "id": 7,
+      "imageURL": "https://i2.rozetka.ua/goods/13656299/amd_ryzen_5_1600_wraith_stealth_images_13656299167.jpg",
+      "name": "AMD",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 680,
+      "rating": 3,
+      "reliz": 3,
+      "category": 1,
+      "popular": 10
+    },
+    {
+      "id": 8,
+      "imageURL": "https://i2.rozetka.ua/goods/13656299/amd_ryzen_5_1600_wraith_stealth_images_13656299167.jpg",
+      "name": "AMD",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 720,
+      "rating": 5,
+      "reliz": 2,
+      "category": 1,
+      "popular": 7
+    },
+    {
+      "id": 9,
+      "imageURL": "https://i8.rozetka.ua/goods/18036977/intel_bx8070110900k_images_18036977719.jpg",
+      "name": "Intel Core i9-10900K",
+      "specifications": {
+        "cores": 10,
+        "threads": 20,
+        "baseFrequency": "3.70 GHz",
+        "turboFrequency": "5.30 GHz",
+        "busSpeed": "8 GT/s",
+        "TDP": "125 W",
+        "lithography": "14 nm",
+        "memoryTypes": "DDR4-2933",
+        "processorsGPU": "Intel® UHD Graphics 630"
+      },
+      "price": 298,
+      "rating": 5,
+      "reliz": 2,
+      "category": 0,
+      "popular": 8
+    }
+  ],
+  "comments": [
+    {
+      "name": "Ivan",
+      "date": "2021-03-10T16:50:22.432Z",
+      "id": "ckk777ut0",
+      "CPUsId": 0,
+      "rating": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi impedit error itaque explicabo. Quis neque voluptate consequatur dolorem cupiditate laboriosam est, iusto ipsum quidem impedit inventore porro voluptatem commodi nostrum beatae quasi delectus molestiae rem quae! Nulla eveniet odit sit facere corrupti eligendi dolore rerum dolor nihil similique, voluptatibus maxime sunt. A tempora animi veritatis impedit. Dolorum amet ex odio ducimus unde quis, labore eveniet perferendis officiis temporibus dignissimos laboriosam voluptatem excepturi consequatur quos fugiat animi laborum quia, nostrum nihil ea? Obcaecati culpa deleniti cupiditate soluta debitis, ratione quaerat autem, harum, delectus ea inventore molestiae laudantium optio tenetur sunt!"
+    },
+    {
+      "name": "Anna",
+      "date": "2021-03-10T16:50:22.432Z",
+      "id": "ckk777899",
+      "CPUsId": 1,
+      "rating": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi impedit error itaque explicabo. Quis neque voluptate consequatur dolorem cupiditate laboriosam est, iusto ipsum quidem impedit inventore porro voluptatem commodi nostrum beatae quasi delectus molestiae rem quae! Nulla eveniet odit sit facere corrupti eligendi dolore rerum dolor nihil similique, voluptatibus maxime sunt. A tempora animi veritatis impedit. Dolorum amet ex odio ducimus unde quis, labore eveniet perferendis officiis temporibus dignissimos laboriosam voluptatem excepturi consequatur quos fugiat animi laborum quia, nostrum nihil ea? Obcaecati culpa deleniti cupiditate soluta debitis, ratione quaerat autem, harum, delectus ea inventore molestiae laudantium optio tenetur sunt!"
+    },
+    {
+      "name": "Bill",
+      "date": "2021-03-10T16:50:22.432Z",
+      "id": "ckk2kk565",
+      "CPUsId": 1,
+      "rating": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi impedit error itaque explicabo. Quis neque voluptate consequatur dolorem cupiditate laboriosam est, iusto ipsum quidem impedit inventore porro voluptatem commodi nostrum beatae quasi delectus molestiae rem quae! Nulla eveniet odit sit facere corrupti eligendi dolore rerum dolor nihil similique, voluptatibus maxime sunt. A tempora animi veritatis impedit. Dolorum amet ex odio ducimus unde quis, labore eveniet perferendis officiis temporibus dignissimos laboriosam voluptatem excepturi consequatur quos fugiat animi laborum quia, nostrum nihil ea? Obcaecati culpa deleniti cupiditate soluta debitis, ratione quaerat autem, harum, delectus ea inventore molestiae laudantium optio tenetur sunt!"
+    }
+  ]
+}

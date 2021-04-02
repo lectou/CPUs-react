@@ -1,0 +1,32 @@
+.categories {
+  display: flex;
+  background-color: $light-grey;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 3.7rem;
+  @include breakpoint(450px) {
+    margin-bottom: 2rem;
+  }
+  &__item {
+    font-size: 1.8rem;
+    font-weight: 500;
+    &:not(:last-child) {
+      margin-right: 2px;
+    }
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+    &:first-child {
+      padding-left: 2rem;
+    }
+    &:last-child {
+      padding-right: 2rem;
+    }
+    &:hover {
+      background-color: darken($color: $light-grey, $amount: 5);
+    }
+    &.active {
+      background-color: darken($color: $light-grey, $amount: 5);
+    }
+  }
+}

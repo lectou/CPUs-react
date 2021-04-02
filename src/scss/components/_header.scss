@@ -1,0 +1,48 @@
+@import '../variables';
+@import '../mixins';
+
+.header {
+  background-color: $blue;
+  width: 100%;
+  z-index: $header-z-index;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  &__block {
+    color: $white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    span {
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    @include breakpoint(576px) {
+      display: none;
+    }
+  }
+  &__icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  &__text {
+    color: #fff;
+    font-size: 20px;
+  }
+  &__buttons {
+    padding: 0;
+    height: 100%;
+  }
+}

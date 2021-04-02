@@ -1,0 +1,47 @@
+.sort {
+  display: flex;
+  position: relative;
+  z-index: 20;
+  &__label {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    b {
+      margin: 0 1rem;
+    }
+    span {
+      color: $blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    svg {
+      transform: rotate(180deg);
+      transition: transform 0.3s;
+    }
+    svg.rotated {
+      transform: rotate(0deg);
+    }
+  }
+  &__list {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: $light-grey;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    overflow: hidden;
+    width: 160px;
+    max-height: 0;
+    transition: max-height 0.3s ease-in;
+  }
+  &__item {
+    padding: 12px 20px;
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+    cursor: pointer;
+    &.active,
+    &:hover {
+      background: darken($color: $light-grey, $amount: 5);
+    }
+  }
+}

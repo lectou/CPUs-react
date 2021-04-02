@@ -1,0 +1,12 @@
+export const SET_LOADER = "SET_LOADER";
+export const SET_PRODUCTS = "SET_PRODUCTS";
+export const SET_SORT_BY = "SET_SORT_BY";
+export const SET_CATEGORY = "SET_CATEGORY";
+export const SET_PRODUCT_CART = "SET_PRODUCT_CART";
+export const PLUS_CART_ITEM = "PLUS_CART_ITEM";
+export const MINUS_CART_ITEM = "MINUS_CART_ITEM";
+export const DELETE_CART_ITEM = "DELETE_CART_ITEM";
+export const DELETE_ALL_ITEMS = "DELETE_ALL_ITEMS";
+export const SET_PRODUCT = "SET_PRODUCT";
+export const CLEAR_DATA = "CLEAR_DATA";
+export const NEW_COMMENT = "NEW_COMMENT";

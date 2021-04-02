@@ -1,0 +1,205 @@
+.btn {
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  &__back {
+    height: 40px;
+    width: 80px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 7px;
+      transform: translateY(-50%);
+      transition: left 0.3s;
+    }
+    span {
+      position: absolute;
+      top: 50%;
+      left: 30px;
+      color: #949494;
+      font-size: 1.8rem;
+      font-weight: 500;
+      transform: translateY(-50%);
+    }
+    &:hover {
+      svg {
+        left: 0;
+      }
+    }
+  }
+  &-back,
+  &-delete,
+  &-add {
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    .count {
+      font-size: 1.4rem;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &-add {
+    svg {
+      fill: $blue;
+      transition: all 0.3s;
+    }
+    span {
+      color: $blue;
+    }
+  }
+  &__cube {
+    padding: 0rem 1.4rem;
+    border-radius: 6px;
+    height: 4rem;
+  }
+  &-green {
+    background-color: #64d1cd;
+    color: #fff;
+    &:hover {
+      background-color: darken($color: #64d1cd, $amount: 10);
+      box-shadow: 0px 5px 19px -3px rgba(34, 60, 80, 0.2);
+    }
+    &:active {
+      background-color: darken($color: #64d1cd, $amount: 20);
+    }
+  }
+  &__icon {
+    margin-right: 0.7rem;
+  }
+
+  &__cart-header {
+    display: block;
+    height: 100%;
+    width: 60px;
+    position: relative;
+    cursor: pointer;
+    background-color: rgba($color: #fff, $alpha: 0);
+    transition: background-color 0.3s;
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+    }
+    .count {
+      background-color: #fff;
+      color: $black;
+      font-size: 12px;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      border-radius: 20px;
+      padding: 0 7px;
+    }
+    &:hover {
+      background-color: rgba($color: #fff, $alpha: 0.3);
+    }
+  }
+  &__cart {
+    background-color: $lightsalmon;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    &:hover {
+      background-color: darken($color: $lightsalmon, $amount: 10);
+      box-shadow: 0px 5px 19px -3px rgba(34, 60, 80, 0.2);
+    }
+    &:active {
+      background-color: darken($color: $lightsalmon, $amount: 20);
+    }
+
+    &-circle {
+      z-index: 40;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      .count {
+        position: absolute;
+        top: 40%;
+        right: 30%;
+        padding: 2px 6px;
+        min-width: 16px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #fff;
+        font-size: 12px;
+        color: #000;
+        z-index: 50;
+        transform: translate(50%, -50%);
+      }
+      svg {
+        position: absolute;
+        top: 55%;
+        right: 55%;
+        transform: translate(50%, -50%);
+      }
+    }
+    &-cube {
+      position: relative;
+      height: 40px;
+      padding: 1rem;
+      border-radius: 6px;
+      svg {
+        position: absolute;
+        left: 10px;
+        top: 55%;
+        transform: translateY(-50%);
+      }
+      .count {
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        left: 30px;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 2px 6px;
+        min-width: 16px;
+        font-size: 1.2rem;
+      }
+      .text {
+        margin-left: 50px;
+        color: $white;
+        font-size: 1.6rem;
+      }
+    }
+  }
+  &-icon {
+    height: 40px;
+    svg {
+      fill: $grey;
+      transition: all 0.3s;
+    }
+    &:hover {
+      svg {
+        fill: darken($color: $grey, $amount: 30);
+      }
+    }
+  }
+  &-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid $grey;
+    svg {
+      fill: darken($color: $grey, $amount: 30);
+    }
+    &:hover {
+      background-color: $grey;
+      svg {
+        fill: #fff;
+      }
+    }
+  }
+  &[disabled] {
+    background-color: $light-grey;
+  }
+}
